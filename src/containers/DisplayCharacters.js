@@ -1,5 +1,5 @@
-import React, { useEffect } from './node_modules/react';
-import PropTypes from './node_modules/prop-types';
+import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Characters from '../components/Characters';
 import { getCharacters, getCharactersLoading } from '../selectors/charactersSelector';
