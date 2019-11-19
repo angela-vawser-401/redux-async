@@ -1,9 +1,10 @@
-import React from './node_modules/react';
+import React from 'react';
 import {
-  BrowserRouter as Router, Switch, Route } from './node_modules/react-router-dom';
+  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import DisplayCharacters from '../containers/DisplayCharacters';
 import DisplayCharacterDetail from '../containers/DisplayCharacterDetail';
+import './Main.css';
 
 export default function App() {
   return (

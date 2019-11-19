@@ -1,6 +1,17 @@
 .Header {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../assets/mulder.jpg);
+  background-size: cover;
   width: 100vw;
-  background: black;
-  color: white;
-  height: 200px;
+  height: 250px;
+
+  div {
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;  
+  }
 }

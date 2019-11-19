@@ -1,6 +1,6 @@
-import React from './node_modules/react';
-import { Link } from './node_modules/react-router-dom';
-import PropTypes from './node_modules/prop-types';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const Character = ({ name, image }) => (
   <Link to={`/characters/${name}`}>

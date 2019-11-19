@@ -1,11 +1,14 @@
-import React from './node_modules/react';
-import { Link } from './node_modules/react-router-dom';
-import styles from './node_modules/Header.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './Header.css';
 
 const Header = () => (
-  <header className={styles.Header}>
-    <Link to="/">X-FILES RULES!</Link>
-  </header>
+  <section>
+    <header className={styles.Header} />
+    <div>
+      <Link to="/">CHARACTER LIST</Link>
+    </div>
+  </section>
 );
 
 export default Header;
